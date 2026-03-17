@@ -6,30 +6,30 @@ import { Employee } from './Employee'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const name ="shashank mishra";
+  let x=30; 
+  let y=45;
+  function fun(){
+    function sum(a,b){
+     return( a+b
+    )}
+    function cal(){
+      <h2>calculator</h2>
+    }
+     return( a+b
+     )
   return (
-  <div>[]
-    <h1>inside the app component</h1>
-    <h1>second line</h1>
+          "inside fun"
+  )
+   }
+    <div>
+    <h1>use variable with.jsx</h1>
+    <h3>example of variable is{name}</h3>
+    <h3> sum of two no is 75</h3>
+    <h3>{fun()}</h3>
     <User></User>
     <Employee></Employee>
     <sum></sum>
   </div>
-  )
-}
-function User()
-{
-return(
-
-  <h1>component</h1>
-   )
-
-}
-        
-function set()
-{
-
-  return (10+10)(
-  )
 }
 export default App
